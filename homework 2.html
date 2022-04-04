@@ -1,0 +1,37 @@
+</DOCTYPE>
+<html>
+    <body>
+        <head>  
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+        <script>
+            let first = prompt('Введите первое число',);
+            first = Number(first);
+            let second = prompt('Введите знак арифметический знак,(/,+,*,-)' );
+            let third = prompt('Введите второе число',);
+                third = Number(third);
+            switch (second){
+                case '+':
+                    let sum = first + third
+                    alert(`'Ваш результат ${sum}'`);
+                    break
+                case '-':
+                    let dif = first - third
+                    alert(`'Ваш результат ${dif}'`);
+                    break
+                case '/':
+                    let divis = first / third
+                    alert(`'Ваш результат ${divis}'`);
+                    break
+                case '*':
+                    let multi = first * third
+                    alert(`'Ваш результат ${multi}'`);
+                    break
+                default:alert('Такой операции не существует')  
+            }
+        </script>
+    </body>
+</html>
