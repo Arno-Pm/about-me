@@ -8,11 +8,9 @@
         </head>
 
         <script>
-            let first = prompt('Введите первое число',);
-            first = Number(first);
-            let second = prompt('Введите знак арифметический знак,(/,+,*,-)' );
-            let third = prompt('Введите второе число',);
-                third = Number(third);
+            const first = Number(prompt('Введите первое число',));
+            const second = prompt('Введите знак арифметический знак,(/,+,*,-)' );
+            const third = Number(prompt('Введите второе число',));
             switch (second){
                 case '+':
                     let sum = first + third
